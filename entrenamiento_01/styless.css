@@ -1,0 +1,213 @@
+.header {
+  background: rgb(8, 8, 8);
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  color: white;
+
+}
+
+
+.foto {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.foto img {
+  width: 160px;
+  border-radius: 20%;
+}
+
+.institucion img {
+  width: 50%;
+  height: auto;
+}
+
+.datos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.datos ul li {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+
+.letra {
+  font-size: 1.05em;
+}
+
+.diseño-experiencias-estudios {
+  width: 80%;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  border: 0.2rem solid black;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+.todos-los-datos {
+  width: 80%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+  border-left: 0.3rem solid black;
+  border-right: 0.3rem solid black;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+.mapa {
+  width: 100%;
+  max-width: 800px;
+  /* opcional para que no sea gigante en PC */
+  margin: auto;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 300px;
+  /* esto es CLAVE */
+  border: 0;
+}
+
+.mapa h5 {
+  text-align: center;
+}
+
+
+
+.recetas {
+  list-style-position: inside;
+  text-align: center;
+}
+
+ol {
+
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  /* centra el bloque */
+  text-align: left;
+  /*texto alineado a la izquierda */
+  padding-left: 20px;
+  /* espacio para los números */
+}
+
+article {
+  width: 100%;
+  /* ocupa todo el ancho disponible */
+  margin: 20px 0;
+  /* espacio entre recetas */
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+  width: 100%;
+  border-radius: 150px 0 150px 0;
+
+}
+
+.footer {
+  background: rgb(8, 8, 8);
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  color: white;
+}
+
+.prueba {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}
+form{
+  border:1px solid black;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+
+}
+.contatox {
+  width: 90%;
+  max-width: 500px;
+}
+/* Estilo para el form  */
+form label{
+  display: block;
+  margin-top: block;
+  font-weight: bold;
+}
+
+form input,
+form textarea{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+
+}
+/*estilo botones*/
+.botones {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+.botones button{
+  padding: 10px 15px;
+  border: none;
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.botones button:hover{
+  background-color: #333;
+}
+textarea {
+  width: 100%;
+  height: 120px;
+  resize: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.botones button {
+  padding: 10px 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.contatox {
+  width: 90%;
+  max-width: 500px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.receta {
+  background: rgb(90, 152, 194);
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+.indice {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  }
